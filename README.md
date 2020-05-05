@@ -1,4 +1,4 @@
-# JavaScript 문법 소개
+# JavaScript Grammer
 
 ## Array
 
