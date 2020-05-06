@@ -9,14 +9,21 @@ const movies = [
 for (const index in movies) {
   console.log(index);
 }
-
-const forzen = {
+/* 
+  [index]=>
+  0, 1, 2, 3, 4
+  */
+const frozen = {
   title: "frozen",
   name: "elsa",
   genre: "animation",
 };
 
 //  enumerable properties 순환
-for (const item in forzen) {
-  console.log(item);
+for (const item in frozen) {
+  console.log(frozen[item]);
 }
+/*
+  [frozen[item]]=>
+  frozen, elsa, animation
+  */

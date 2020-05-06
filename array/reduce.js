@@ -1,4 +1,4 @@
-let movies = [
+const movies = [
   { title: "toy story", name: "woody", genre: "animation" },
   { title: "frozen", name: "elsa", genre: "animation" },
   { title: "car", name: "lightning mcqueen", genre: "animation" },
@@ -6,7 +6,7 @@ let movies = [
   { title: "toy story", name: "buzz", genre: "animation" },
 ];
 
-let movieTitles = movies.reduce(
+const movieTitles = movies.reduce(
   (accumulator, currentValue) => {
     accumulator[currentValue.title] = ++accumulator[currentValue.title] || 1;
     return accumulator;

@@ -15,8 +15,9 @@ movies.forEach((movie) => {
 
 console.log(animations);
 /*
+[animations]=>
 [{title: "toy story", name: "woody", genre: "animation"},
  {title: "frozen", name: "elsa", genre: "animation"},
  {title: "car", name: "lightning mcqueen", genre: "animation"},
  {title: "toy story", name: "buzz", genre: "animation"}]
-     */
+*/
