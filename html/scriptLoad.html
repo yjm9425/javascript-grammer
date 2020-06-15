@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- async html 구문이 parse 되는 동안 js를 다운로드받고 다운로드 받은 시점에서 js를 실행한다. excute실행순서에 신경을 써야한다. DOM 종속성이 없을때 사용하면 유용하다. -->
+    <script async src="load.js"></script>
+    <!-- defer html 구문이 parse되는 도안 js를 다운로드 받고 html 구문이 모두 parse되었으면 그때 다운로드된 js 를 실행한다. DOM에 의존적일때 사용하면 유용하다. -->
+    <script defer src="load.js"></script>
+    <!-- script 문장이 </body> 앞에 선언되어 있다면 async, defer 둘 다 큰의미가 없다. -->
+  </head>
+  <body></body>
+</html>
